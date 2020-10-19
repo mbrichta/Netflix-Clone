@@ -29,7 +29,7 @@ Player.Video = function PayerVideo({ ...restProps }) {
             <Overlay onClick={() => setShowPlayer(false)} {...restProps}>
                 <Inner>
                     <video type="video/mp4" id="netflix-player" controls>
-                        <source src="/videos/Oldboy.mp4" type="video/mp4" />
+                        <source src="/video/rickroll.mp4" type="video/mp4" />
                     </video>
                     <Close />
                 </Inner>
